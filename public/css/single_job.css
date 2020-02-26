@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family:Century Gothic;
+}
+.job_details_form{
+	border:1px solid black;
+	
+}
+.job_details{
+	padding-left: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f0f0f0;
+}
+.job_details h3{
+	color: rgb(19, 185, 79);
+}
+.job_details h5{
+	padding-left: 20px;
+	opacity: .5;
+}
+.job_details h6{
+	padding-left: 50px;
+}
+.job_details button{
+	margin-left: 500px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	background-color:#3cb371;
+}
+.job_details button:hover{
+	background-color: hsl(0, 0%, 50%);
+	color:white; 
+}

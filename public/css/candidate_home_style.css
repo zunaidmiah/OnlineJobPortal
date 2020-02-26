@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Century Gothic;
+}
+header{
+	height:40vh;
+	background-size: cover;
+	background-position: center;
+}
+.style ul{
+	float: right;
+	list-style-position:none;
+	margin-top:25px;
+	
+}
+.style ul li{
+	display: inline-block;
+}
+.style ul li a{
+	text-decoration: none;
+	color:#000;
+	padding: 5px 20px;
+	border:1px solid black;
+	transition:0.6s ease;
+}
+.style ul li a:hover{
+	background-color:#000;
+	color:#fff;
+}
+
+.logo img{
+	float:left;
+	height:auto;
+	width:200px;
+	padding:5px;
+}
+.style{
+	max-width:1200px;
+	margin:auto;
+}
+.text{
+	position:absolute;
+	top:25%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.text h1{
+	color:#fff;
+	font-size:70px;
+}
+.page {
+  display: flex;
+  justify-content: center;
+}
+.left {
+    padding:50px 70px;
+	background-color:LightGray;
+	
+	}
+.right {
+    padding: 50px 70px;
+	background-color:Violet;
+	
+}
+.division{
+	display: inline-block;
+}
+.division a{
+	text-decoration: none;
+	color:#000;
+	padding: 5px 20px;
+	border:1px solid black;
+	transition:0.6s ease;
+}
+.division a:hover{
+	background-color:#000;
+	color:#fff;
+}
+.category{
+	display: inline-block;
+}
+.category a{
+	text-decoration: none;
+	color:blue;
+	padding: 5px 20px;
+	transition:0.6s ease;
+}
+.category a:hover{
+	color:tomato;
+}
+.sub-menu{
+	display:none;
+}
+.sub-menu ul li{
+	padding-top: 10px;
+}
+.style ul li:hover .sub-menu{
+	display:block;
+	position:absolute;
+	margin-top:15px;
+	margin-left:15px;
+}
+.style ul li:hover .sub-menu ul{
+	display:block;
+	margin:40px;
+}
+.footer{
+	padding:20px;
+	
+	background: gray;
+	text-align:right;
+}
+.footer a{
+	color:#000;
+}
+.footer a:hover{
+	color:#fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	transition:0.6s ease;
+}
+.search-sec{
+    background: #1A4668;padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+     height: calc(3rem + 2px) !important;
+     border-radius:0;
+}
+

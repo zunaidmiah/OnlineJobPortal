@@ -1,0 +1,15 @@
+.contact{
+	background-color:#005051;
+	padding-top:100px;
+	padding-bottom: 70px;
+	padding-left:500px;
+	padding-right:500px;
+}
+.contact h1{
+	padding-left:70px;
+	color: white;
+}
+.contact p{
+	text-align: center;
+	color: white;
+}
